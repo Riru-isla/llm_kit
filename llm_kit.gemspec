@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.description = "Provider-neutral chat with OpenAI-compatible providers (Ollama, LM Studio, Gemini, OpenAI...) " \
                      "and, optionally, Claude through the anthropic gem."
   spec.required_ruby_version = ">= 3.4"
-  spec.metadata["allowed_push_host"] = "none" # private: never pushed to rubygems.org
+  spec.metadata["allowed_push_host"] = "none" # installed from GitHub; never pushed to rubygems.org
   spec.metadata["rubygems_mfa_required"] = "true"
 
   spec.files = Dir["lib/**/*.rb", "README.md"]

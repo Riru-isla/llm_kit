@@ -15,12 +15,11 @@ from Buckets' `Llm` layer, to share it with Reliquary and future projects.
 
 ```ruby
 # Gemfile
-gem "llm_kit", git: "git@github.com:<you>/llm_kit.git", tag: "v0.1.0"
+gem "llm_kit", github: "Riru-isla/llm_kit", tag: "v0.1.0"
 gem "anthropic", "~> 1.80" # only if a provider uses `adapter: anthropic`
 ```
 
-While developing the gem next to an app, point Bundler at the local checkout:
-`bundle config set local.llm_kit ~/projects/llm_kit`.
+Not published on rubygems.org: apps install it from GitHub, pinned to a tag.
 
 ## Configure
 
